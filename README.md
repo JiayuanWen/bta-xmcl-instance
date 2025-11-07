@@ -12,4 +12,13 @@
   <h1 align="center">Better Than Adventure (And Babric) <br> for X Minecraft Launcher</h1>
 </p>
 
-This repository contains files and instructions on getting the Minecraft beta 1.7.3 fork [Better Than Adventure](https://www.betterthanadventure.net/) (both regular and Babric version) to work on [X Minecraft Launcher](https://xmcl.app). 
+<p align="center">
+  <img alt="Logo" width="1000" src="readme-mat/main.png">
+</p>
+
+This repo contains files and instructions on getting [Better Than Adventure](https://www.betterthanadventure.net/) (both regular and Babric version) to work on [X Minecraft Launcher (XMCL)](https://xmcl.app).
+
+## Installation 
+
+(wip)
+
