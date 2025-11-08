@@ -69,8 +69,9 @@ https://adoptium.net/temurin/releases?version=17&os=any&arch=any
 
 ## Credits & Legal Notice
 
-<small>
-<h3>Better Than Adventure by Mak and jonkadelic. Fabric intergration (Babric) from Turnip-Labs</h3>
+<br>
+
+### Better Than Adventure by Mak and jonkadelic. Fabric intergration (Babric) from Turnip-Labs
 This project makes use of, or provides a launcher integration for, the mod [Better Than Adventure](https://www.betterthanadventure.net/) by Mak and [jonkadelic](https://bta.miraheze.org/wiki/User:Jonkadelic) and [Fabric Integration (Babric)](https://github.com/Turnip-Labs/bta-fabric-instance-repo) from [Turnip-Labs](https://github.com/Turnip-Labs). 
 
 This project does *not* itself distribute any files from stated parties. All downloads performed by the project are directly linked to perspective official sources and repository:  
@@ -80,12 +81,13 @@ This project does *not* itself distribute any files from stated parties. All dow
 I am not responsible for the contents of the linked mod or any subsequent modifications by the original authors.
 
 <br>
-<h3>Minecraft® from Microsoft Corporation</h3>
+
+### Minecraft® from Microsoft Corporation
 [Minecraft®](https://www.minecraft.net/) is a trademark of [Microsoft Corporation](https://www.microsoft.com/).
 
 This project is not affiliated with, endorsed by, or in any way officially connected with [Microsoft Corporation or Mojang Synergies AB](https://www.minecraft.net/). All product names, logos, and brands are property of their respective owners.
 
 <br>
-<h3>X Minecraft Launcher</h3>
+
+### X Minecraft Launcher
 This project integrates with [X Minecraft Launcher (XMCL)](https://github.com/Voxelum/x-minecraft-launcher), an open-source Minecraft launcher released under the [MIT License](https://github.com/Voxelum/x-minecraft-launcher/blob/master/LICENSE). 
-</small>
