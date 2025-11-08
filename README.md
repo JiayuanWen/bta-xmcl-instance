@@ -27,8 +27,8 @@ This repo contains files and instructions on getting [Better Than Adventure](htt
 1. Launch XMCL, open the "Store Location" folder (where your instances, libraries, etc resides) from your XMCL Settings page:
     ![XMCL Store Location show button](readme-mat/instruction-storelocation.png)
 1. Open the zip you downloaded with any archive utility and extract the `versions/` folder to the "Store Location" folder you opened. If prompted to "Write into" existing folder of same name, accecpt it.
-    > [!IMPORTANT] 
-    > Make sure the arcive utility you use extracts preserves the folder struture, which means the whole `versions/` folder with the `bta-*/` and `bta-*-babric/` sub-folders inside. If not, configure it to do so. Or you can just drag and drop the `versions/` folder. 
+> [!IMPORTANT] 
+> Make sure the arcive utility you use extracts preserves the folder struture, which means the whole `versions/` folder with the `bta-*/` and `bta-*-babric/` sub-folders inside. If not, configure it to do so. Or you can just drag and drop the `versions/` folder. 
 
 ### Install Java 17 (Skip if you have it already)
 Better Than Adventure uses Java 17 instead of Java 8. 
@@ -43,8 +43,8 @@ https://adoptium.net/temurin/releases?version=17&os=any&arch=any
       \
       ![](readme-mat/instruction-pickversion2.png)
     * For `Local Version` section at the very bottom, choose `bta-<version you imported>` (ex. `bta-7.3_04`) 
-      > [!WARNING] 
-      > Do NOT choose the `-babric` version just yet. XMCL need the `bta-<version>` selected to install necessary files first.
+> [!WARNING] 
+> Do NOT choose the `-babric` version just yet. XMCL need the `bta-<version>` selected to install necessary files first.
     * For `JavaLocation`, choose `17.0.x` (ex. `17.0.17`)
 
 1. Once the instance is created, select it if not already, click on the gear icon at the top-right corner of launcher:
@@ -69,7 +69,8 @@ https://adoptium.net/temurin/releases?version=17&os=any&arch=any
 
 ## Credits & Legal Notice
 
-### • Better Than Adventure by Mak and jonkadelic. Fabric intergration (Babric) from Turnip-Labs
+<small>
+<h3>Better Than Adventure by Mak and jonkadelic. Fabric intergration (Babric) from Turnip-Labs</h3>
 This project makes use of, or provides a launcher integration for, the mod [Better Than Adventure](https://www.betterthanadventure.net/) by Mak and [jonkadelic](https://bta.miraheze.org/wiki/User:Jonkadelic) and [Fabric Integration (Babric)](https://github.com/Turnip-Labs/bta-fabric-instance-repo) from [Turnip-Labs](https://github.com/Turnip-Labs). 
 
 This project does *not* itself distribute any files from stated parties. All downloads performed by the project are directly linked to perspective official sources and repository:  
@@ -78,10 +79,13 @@ This project does *not* itself distribute any files from stated parties. All dow
 
 I am not responsible for the contents of the linked mod or any subsequent modifications by the original authors.
 
-### • Minecraft® from Microsoft Corporation
+<br>
+<h3>Minecraft® from Microsoft Corporation</h3>
 [Minecraft®](https://www.minecraft.net/) is a trademark of [Microsoft Corporation](https://www.microsoft.com/).
 
 This project is not affiliated with, endorsed by, or in any way officially connected with [Microsoft Corporation or Mojang Synergies AB](https://www.minecraft.net/). All product names, logos, and brands are property of their respective owners.
 
-### • X Minecraft Launcher
+<br>
+<h3>X Minecraft Launcher</h3>
 This project integrates with [X Minecraft Launcher (XMCL)](https://github.com/Voxelum/x-minecraft-launcher), an open-source Minecraft launcher released under the [MIT License](https://github.com/Voxelum/x-minecraft-launcher/blob/master/LICENSE). 
+</small>
