@@ -24,7 +24,7 @@ This repo contains files and instructions on getting [Better Than Adventure](htt
 
 ### Import the client json
 1. Download the zip file from [release](https://github.com/JiayuanWen/bta-xmcl-instance/releases) and save it somewhere temporary.
-1. Launch XMCL, open the "Store Location" folder (where your instances, libraries, etc resides) from your XMCL Settings page:
+1. Launch XMCL, open the "Store Location" folder (where your instances, libraries, etc resides) from your XMCL Settings page:\
     ![XMCL Store Location show button](readme-mat/instruction-storelocation.png)
 1. Open the zip you downloaded with any archive utility and extract the `versions/` folder to the "Store Location" folder you opened. If prompted to "Write into" existing folder of same name, accecpt it.
 > [!IMPORTANT] 
@@ -47,7 +47,7 @@ https://adoptium.net/temurin/releases?version=17&os=any&arch=any
 
      * For `JavaLocation`, choose `17.0.x` (ex. `17.0.17`)
 
-1. Once the instance is created, select it if not already, click on the gear icon at the top-right corner of launcher:
+1. Once the instance is created, select it if not already, click on the gear icon at the top-right corner of launcher:\
     ![](readme-mat/instruction-editinstance.png)
 1. On the right side, find `JVM Options` field, and add in the following JVM options:
     ```
