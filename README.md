@@ -12,23 +12,24 @@
   <img alt="Screenshot of Minecraft BTA mod working in XMCL" width="1000" src="readme-mat/main.png">
 </p>
 
-This repo contains files and instructions on getting [Better Than Adventure](https://www.betterthanadventure.net/) (both regular as well as Babric version for modding) to work on [X Minecraft Launcher (XMCL)](https://xmcl.app).
+This repo contains files and instructions on getting [Better Than Adventure](https://www.betterthanadventure.net/) (both regular as well as Babric version for modding) to work on [X Minecraft Launcher (XMCL)](https://xmcl.app). 
 
 ## Table of Contents
 
 * [Instructions](#instructions)
+* [Troubleshooting](#troubleshooting)
 * [Adding New Versions](#adding-new-versions)
 * [Credits & Legal Notice](#credits--legal-notice)
 
 ## Instructions
 
-### Import the client json
+### Import the version folders
 1. Download the zip file from [release](https://github.com/JiayuanWen/bta-xmcl-instance/releases) and save it somewhere temporary.
 1. Launch XMCL, open the "Store Location" folder (where your instances, libraries, etc resides) from your XMCL Settings page:\
     ![XMCL Store Location show button](readme-mat/instruction-storelocation.png)
-1. Open the zip you downloaded with any archive utility and extract the `versions/` folder to the "Store Location" folder you opened. If prompted to "Write into" existing folder of same name, accecpt it.
-> [!IMPORTANT] 
-> Make sure the arcive utility you use extracts preserves the folder struture, which means the whole `versions/` folder with the `bta-*/` and `bta-*-babric/` sub-folders inside. If not, configure it to do so. Or you can just drag and drop the `versions/` folder. 
+1. Open the zip you downloaded with any archive utility and extract the `versions/` folder to the XMCL "Store Location" folder you opened. If prompted to "Write into" existing folder of same name, accecpt it.
+> [!WARNING] 
+> Make sure the arcive utility you use preserves the folder struture when extracting, which means the whole `versions/` folder with the `bta-*/` and `bta-*-babric/` sub-folders inside. If not, configure it to do so. Or you can just drag and drop the `versions/` folder if utility has GUI. 
 
 ### Install Java 17 (Skip if you have it already)
 Better Than Adventure uses Java 17 instead of Java 8. 
@@ -37,13 +38,13 @@ Go to the site below for installer and runtime archive download links, install i
 https://adoptium.net/temurin/releases?version=17&os=any&arch=any
 
 ### Create the instance
-1. Create a new instance:
+1. In XMCL, Create a new instance:
     * For `Minecraft` section, click on the bug icon, then search & pick `b1.7.3`\
       ![](readme-mat/instruction-pickversion1.png)\
       \
       ![](readme-mat/instruction-pickversion2.png)
     * For `Local Version` section at the very bottom, choose `bta-<version you imported>` (ex. `bta-7.3_04`). 
-      * **WARNING: Do NOT choose the option with `-babric`, that is for later.**
+      * **WARNING: Do NOT choose the option with "-babric" postfix, that is for later.**
 
      * For `JavaLocation`, choose `17.0.x` (ex. `17.0.17`)
 
@@ -57,7 +58,7 @@ https://adoptium.net/temurin/releases?version=17&os=any&arch=any
 1. You are done! Launch the instance and enjoy. If you want modding support, keep reading.
 
 ### Modding support with Babric
-> [!IMPORTANT] 
+> [!WARNING] 
 > Make sure you followed the previous section to install the regular version first. Otherwise the steps below will not work.
 1. Go back to the instance's settings page if not already.
 1. On the left side at the bottom of the page, find `Local Version` and select `bta-<version-babric-<babric version>`(ex. `bta-7.3_04-babric-0.15.6`).
@@ -66,6 +67,14 @@ https://adoptium.net/temurin/releases?version=17&os=any&arch=any
 
 ## Adding New Versions
 (WIP)
+
+## Troubleshooting
+
+If you encounter problems, post them in [issues](https://github.com/JiayuanWen/bta-xmcl/issues) and I'll investigate. Useful items to include in your posts:
+* Generate a report by clicking on `Feedback` botton at the top-right corner next to your account name, then click `GENERATE REPORT`. Open the generated `report.zip` file, then open `main.log` and copy the content inside, pasting them in a [code block](https://github.com/jspsych/jsPsych/discussions/1113) in your post.
+* View instance logs and crash reports by clicking on the first icon above Launch/Install button:\
+![](readme-mat/instruction-instancereport.png) \
+Choose the most recent problematic launch's report, copy the content then paste them in a [code block](https://github.com/jspsych/jsPsych/discussions/1113) in your post.
 
 ## Credits & Legal Notice
 
