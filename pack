@@ -1,0 +1,38 @@
+#!/bin/sh
+
+BTA_VER="7.3_04"
+
+# Check if zip utility exist in system
+if ! command -v zip >/dev/null 2>&1
+then
+    echo "'zip' utility could not be found. Be sure it is installed in your system."
+    exit 1
+fi
+
+# Find matching directories in `versions/`
+found=""
+MATCH_LIST="./versions/bta-${BTA_VER} ./versions/bta-${BTA_VER}-babric*"
+for d in $MATCH_LIST; do
+    if [ -d "$d" ]; then
+        found="$found $d"
+    else
+        printf 'Warning: directory %s not found, skipping\n' "$d" >&2
+    fi
+done
+
+# Exist if no matching version found.
+count=0
+for d in $MATCH_LIST; do
+    if [ -d "$d" ]; then
+        count=$((count + 1))
+    fi
+done
+if [ "$count" -eq 0 ]; then
+    printf 'Error: no matching folders for version %s\n' "$BTA_VER" >&2
+    exit 1
+fi
+
+# Pack the versions
+eval zip -r -9 "bta-xmcl.$BTA_VER.zip" "$found"
+echo "Packing successful. Zip created on project root directory: $PWD"
+exit 0

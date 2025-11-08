@@ -20,5 +20,5 @@ This repo contains files and instructions on getting [Better Than Adventure](htt
 
 ## Installation 
 
-(wip)
+
 

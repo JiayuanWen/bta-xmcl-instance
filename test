@@ -1,0 +1,6 @@
+#!/bin/sh
+
+test_list="1 2 3 4"
+for d in $list; do
+    echo $d
+done
